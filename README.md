@@ -1,16 +1,9 @@
 # portfolio_app
 
-A new Flutter project.
+A new Flutter project 
 
-## Getting Started
+Just UI is implemented. 
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/51815545/211209763-30a61d53-8e7b-4cd7-bdc6-ad0f4ed703c2.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/51815545/211209836-ba259e9a-a66d-43d4-9998-c4c3ada43d46.png)
