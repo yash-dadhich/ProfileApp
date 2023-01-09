@@ -58,6 +58,30 @@ class _MyHomeState extends State<MyHome> {
       backgroundColor: Colors.black,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        leading: PopupMenuButton(
+          color: Colors.black,
+          icon: Icon(Icons.menu),
+          itemBuilder: (context) => [
+            PopupMenuItem(
+              child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Projects',
+                    style: TextStyle(color: Colors.white),
+                  )),
+              value: 1,
+            ),
+            PopupMenuItem(
+              child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'About Me',
+                    style: TextStyle(color: Colors.white),
+                  )),
+              value: 2,
+            )
+          ],
+        ),
         elevation: 0,
         backgroundColor: Colors.transparent,
       ),
