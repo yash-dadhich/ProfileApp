@@ -63,22 +63,26 @@ class _MyHomeState extends State<MyHome> {
           icon: Icon(Icons.menu),
           itemBuilder: (context) => [
             PopupMenuItem(
+              value: 1,
               child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'projects');
+                  },
                   child: Text(
                     'Projects',
                     style: TextStyle(color: Colors.white),
                   )),
-              value: 1,
             ),
             PopupMenuItem(
+              value: 2,
               child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'about');
+                  },
                   child: Text(
                     'About Me',
                     style: TextStyle(color: Colors.white),
                   )),
-              value: 2,
             )
           ],
         ),
